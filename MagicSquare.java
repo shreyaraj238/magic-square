@@ -1,7 +1,6 @@
 /**
  * A utility class providing some methods to generate and check magic squares.
  *
- * Step 1: Enter your name for @author and the password for @version
  * @author  Shreya Raj
  * @version 46AisDone!
  */
@@ -9,24 +8,7 @@ public class MagicSquare
 {
     // Step 2: Write a static method magicSquare() to generate a
     //         matrix representing a magic square of a gievn size.
-    // You MUST follow the following pseudocode to write the code.
-    // No credit otherwise.
-    // Write the method below the method comment block.
-    // Do not mix your code with the pseudocode.
-    //
-    // Create a 2-D array of type integers of 'size' rows and 'size' columns
-    // Set 2 variables row, col where row = size - 1, col = size / 2
-    // For k = 1, 2, ..., (size * size)
-    //     Set matrix[row][col] to k
-    //     Increment both row and col by one
-    //     if row equals size, replace it with 0
-    //     if col equals size, replace it with 0
-    //     If matrix[row][col] is not zero
-    //        Set row and col to their values before increment
-    //Hint:   (you may need additional variables to store these "previous"
-    //        values before you increment)
-    //        Decrement row by one
-    // Return matrix
+    // 
     /**
      * Generates a matrix representing a magic square of a given size.
      *
@@ -69,12 +51,7 @@ public class MagicSquare
     //         square if the sum of all elements in each
     //         row, in each column, and in the two diagonals
     //         is the same value.
-    // Hint:   For all elements in the main diagonal, 
-    //         the row index is the same as the column index.
-    // Hint:   For all elements in the counter diagonal, 
-    //         the sum of the row index and the column index is
-    //         size - 1, assuming both indexes start with 0.
-    //
+    // 
     /**
      * Determines if a given n by n matrix is a magic square.
      * 
