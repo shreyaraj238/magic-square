@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MagicSquare
+comment0.text=\n\ A\ utility\ class\ providing\ some\ methods\ to\ generate\ and\ check\ magic\ squares.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Shreya\ Raj\n\ @version\ 46AisDone\!\n
+comment1.params=size
+comment1.target=int[][]\ magicSquare(int)
+comment1.text=\n\ Generates\ a\ matrix\ representing\ a\ magic\ square\ of\ a\ given\ size.\n\n\ @param\ \ size\ the\ size\ of\ the\ matrix\n\ @return\ a\ 2-D\ array\ of\ integers\ representing\ a\ magic\ square\ \n\ \ \ \ \ \ \ \ \ of\ the\ given\ size\n
+comment2.params=matrix
+comment2.target=boolean\ isMagicSquare(int[][])
+comment2.text=\n\ Determines\ if\ a\ given\ n\ by\ n\ matrix\ is\ a\ magic\ square.\n\ \n\ @param\ \ matrix\ a\ 2-D\ array\ of\ integers\n\ @return\ true\ if\ the\ 2-D\ array\ represents\ a\ magic\ square\n\ \ \ \ \ \ \ \ \ false\ otherwise\n
+numComments=3
