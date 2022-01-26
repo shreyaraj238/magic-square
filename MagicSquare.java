@@ -6,15 +6,8 @@
  */
 public class MagicSquare
 {
-    // Step 2: Write a static method magicSquare() to generate a
-    //         matrix representing a magic square of a gievn size.
-    // 
     /**
      * Generates a matrix representing a magic square of a given size.
-     *
-     * @param  size the size of the matrix
-     * @return a 2-D array of integers representing a magic square 
-     *         of the given size
      */
     public static int[][] magicSquare(int size)
     {
@@ -44,20 +37,8 @@ public class MagicSquare
         return matrix;
     }
 
-    // Step 3: Write a static method isMagicSquare() to
-    //         determine if a 2-D array of integers is
-    //         a magic square or not.
-    //         A n by n array of integers is a magic 
-    //         square if the sum of all elements in each
-    //         row, in each column, and in the two diagonals
-    //         is the same value.
-    // 
     /**
      * Determines if a given n by n matrix is a magic square.
-     * 
-     * @param  matrix a 2-D array of integers
-     * @return true if the 2-D array represents a magic square
-     *         false otherwise
      */
     public static boolean isMagicSquare(int[][] matrix)
     {
