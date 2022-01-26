@@ -2,10 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 /**
  * A Java tester program for MagicSquare.
- * 
- * Step 1: Enter your name for @author and the password for @version
- * @author  Qi Yang
- * @version 2021-12-10
  */
 public class MagicSquareTester
 {
